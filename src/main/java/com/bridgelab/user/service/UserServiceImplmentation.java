@@ -91,7 +91,7 @@ public class UserServiceImplmentation implements IUserService {
 
 		log.info(saveResponse.toString());
 		System.out.println(user.getUserId());
-		email.setFrom("pritishinde34@gmail.com");
+		email.setFrom("snehgaik11@gmail.com");
 		email.setTo(userDto.getEmail());
 		email.setSubject("Email Verification ");
 		try {
@@ -191,7 +191,7 @@ public class UserServiceImplmentation implements IUserService {
 		throw new UserException("No user exist ", -4);
 		}
 
-		emailObj.setFrom("pritishinde34@gmail.com");
+		emailObj.setFrom("snehgaik11@gmail.com");
 		emailObj.setTo(email);
 		emailObj.setSubject("Forgot Password ");
 		try {
